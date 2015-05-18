@@ -12,4 +12,9 @@ class Post extends \Eloquent {
 	// Don't forget to fill this array
 	protected $fillable = ['title', 'body', 'user_id'];
 
+    public function user(){
+        // 'Many Posts belong to a user'
+        return $this->belongsTo('User');
+    }
+
 }
