@@ -1,0 +1,1 @@
+/Users/koramaiku/Sites/laravel-cms/app/views/posts/edit.blade.php
